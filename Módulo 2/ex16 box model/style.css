@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+    height:300px;
+    width:300px;
+    
+    border: 10px solid blue;
+    
+    padding: 10px;
+    background-color: lightgray;
+
+    margin: 30px;
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: purple;
+    }

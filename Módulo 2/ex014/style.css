@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font: italic bolder 2em 'Mouse Memoirs', sans-serif;
+    /*-font-style, font-weight, font-size, font-family
+    
+    para não ter que configurar 4 tags diferente, em quatro linhas, basta usa esta shorhand para as fontes
+    */
+    text-align: center;
+    background-color: red;
+}
+
+h2 {
+    font-size: 3em;
+    outline-color: yellow;
+    text-justify: justify;
+}
+
+p {
+    background-image: linear-gradient(to right, red, blue);
+    text-align: justify;
+    text-indent: 40px;
+}
