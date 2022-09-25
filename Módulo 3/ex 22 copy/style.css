@@ -15,5 +15,13 @@ div#q2 {
 }
 
 div#q3 {
-    background-position: center;
+    background-position: right;
+}
+
+.bloco {
+    opacity: 0.5;
+}
+
+.bloco:hover {
+    opacity: 1;
 }
