@@ -2,16 +2,24 @@
 
 body {
     height: 100vh;
-    background-color: black;
+    /* background-color: black;
     background-image: url(imagens/wallpaper002.jpg);
     background-position: center top;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    /* Shorthand background, ordem das informações.
+        color > image > position > repeat > [size] (ainda não funciona aqui, colocar separado) > attachment 
+    */
+
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 main {
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     border: solid 2px darkblue;
     border-radius: 10px;
     padding: 10px;
